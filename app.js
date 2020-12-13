@@ -3,6 +3,8 @@ let output = document.querySelector('.container-center');
 let body = document.querySelector('body');
 let paragraph = document.querySelector('p');
 let heading = document.querySelector('#heading');
+let today = new Date;
+date.setAttribute('value', today.toISOString().split('T')[0]);
 
 function prime(num) {
     let result = num / 2;
