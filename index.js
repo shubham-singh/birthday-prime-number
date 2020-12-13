@@ -35,17 +35,6 @@ function isValid(num)
       return false;
     }
   }
-  else if(parseInt(numbers[0]) == 30)
-  {
-    if(parseInt(parseInt(numbers[1]) == 4 || parseInt(numbers[1]) == 6 || parseInt(numbers[1]) == 9 || parseInt(numbers[1]) == 11))
-    {
-      return true;
-    }
-    else
-    {
-      return false;
-    }
-  }
   else
   {
     return true;
